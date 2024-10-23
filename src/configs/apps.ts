@@ -1,9 +1,4 @@
-export interface IApp {
-  name: string;
-  url: string;
-  desc: string;
-  level: string;
-}
+import { IApp } from "../types";
 
 const apps: IApp[] = [
   {

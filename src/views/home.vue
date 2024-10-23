@@ -13,7 +13,8 @@
 
 <script setup lang="ts">
 import router from "../router";
-import apps, { IApp } from "../configs/apps";
+import { IApp } from "../types";
+import apps from "../configs/apps";
 import gridContainer from "../components/grid-container.vue";
 import appItem from "../components/app-item.vue";
 import pageHeader from "../components/page-header.vue";

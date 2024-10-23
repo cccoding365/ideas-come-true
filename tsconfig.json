@@ -2,6 +2,12 @@
     "compilerOptions": {
         "lib": [
             "ES6"
-        ]
+        ],
+        "baseUrl": ".",
+        "paths": {
+            "@/*": [
+                "src/*"
+            ]
+        }
     }
 }

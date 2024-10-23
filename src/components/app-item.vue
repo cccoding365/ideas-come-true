@@ -12,7 +12,7 @@
 </template>
 
 <script setup lang="ts">
-import { IApp } from "../configs/apps";
+import { IApp } from "@/types";
 defineProps<{
   data?: IApp;
 }>();
