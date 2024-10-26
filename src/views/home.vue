@@ -109,9 +109,9 @@
 </template>
 
 <script setup lang="ts">
-import router from "../router";
-import { IApp } from "../types";
-import apps from "../configs/apps";
+import router from "@/router";
+import { IApp } from "@/types";
+import apps from "@/configs/apps";
 
 const onApp = (app: IApp) => {
   router.push(app.url);
